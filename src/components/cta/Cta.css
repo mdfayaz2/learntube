@@ -1,0 +1,46 @@
+/* Container for the CTA */
+.cta-container {
+    background-color: #0a1f44; /* Dark blue background */
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally center the content */
+    justify-content: center; /* Vertically center the content */
+  }
+  
+  /* Title */
+  .cta-title {
+    color: white;
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Button */
+  .cta-button {
+    background-color: #34a853; /* Google green */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; /* Center text inside button */
+  }
+  
+  /* Hover effect on the button */
+  .cta-button:hover {
+    background-color: #2e944a;
+  }
+  
+  /* Google icon inside the button */
+  .google-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  

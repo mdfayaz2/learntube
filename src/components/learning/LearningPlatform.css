@@ -1,0 +1,69 @@
+/* Container for the entire platform */
+.learning-platform-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e3a5f; /* Dark blue background */
+    color: white;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  /* Main Title Styling */
+  .main-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    font-weight: bold;
+  }
+  
+  /* Features Grid */
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Three columns */
+    gap: 20px; /* Space between the cards */
+    justify-items: center;
+  }
+  
+  /* Feature Card Styling */
+  .feature-card {
+    background-color: #e2f0ff; /* Light blue background for cards */
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #1e3a5f; /* Dark blue text */
+  }
+  
+  /* Icon inside the feature card */
+  .feature-icon {
+    width: 80px; /* Adjust icon size */
+    height: 80px;
+    margin-bottom: 15px;
+  }
+  
+  /* Feature Title */
+  .feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Feature Description */
+  .feature-card p {
+    font-size: 16px;
+    margin: 0;
+    color: #1e3a5f; /* Dark blue text */
+  }
+  
+  /* Responsive Design for smaller screens */
+  @media (max-width: 768px) {
+    .features-grid {
+      grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .features-grid {
+      grid-template-columns: 1fr; /* One column on mobile screens */
+    }
+  }
+  
